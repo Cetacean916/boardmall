@@ -6,6 +6,8 @@
 	<properties resource="config/database.properties"></properties>
 	<typeAliases>
 		<typeAlias alias="game" type="com.boardmall.pro.dto.GameVO"/>
+		<typeAlias type="com.boardmall.pro.dto.QnaVO" alias="qna"/>
+		<typeAlias type="com.boardmall.pro.dto.FaqVO" alias="faq"/>
 	</typeAliases>
 	
 	<environments default="development">
